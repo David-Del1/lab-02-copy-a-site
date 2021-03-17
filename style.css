@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "DM Sans", sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #313236;
+}
+
+.brand {
+  margin-left: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 2.5625rem;
+  color: #f1f1f2;
+}
+
+.brand h1 {
+  font-size: 1.5rem;
+}
+
+.caption {
+  color: #c5c5c6;
+  font-size: 0.6rem;
+  text-align: center;
+}
+
+.nav {
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  margin-right: 1.2rem;
+}
+
+.link {
+  margin-right: 1rem;
+}
+
+.social {
+  margin-right: 1rem;
+}
+
+.search-bar {
+  background-color: transparent;
+  margin-right: 1rem;
+}
+
+.search-bar input {
+  background-color: #313236;
+  padding: 0.7rem;
+  color: whitesmoke;
+  border-style: none;
+}
+
+.search-bar input::placeholder {
+  color: whitesmoke;
+}
+
+.search-btn {
+  background-color: transparent;
+  color: whitesmoke;
+  border-style: none;
+  height: 100%;
+}
+
+.categories {
+  width: 100%;
+  background-color: #313236;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 1.5rem;
+}
+
+.category {
+  background-color: #2a2b2e;
+  padding: 0.8rem;
+}
+
+main.main {
+  background-color: #2a2b2e;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 5px;
+  padding: 1rem;
+}
+
+main.main img {
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+main.main img:hover {
+  transform: scale(1.1);
+}
+
+.img-container {
+  position: relative;
+}
+
+.img-container p {
+  color: white;
+  position: absolute;
+  top: 20px;
+  right: 5px;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2rem;
+  background-color: #313236;
+  color: whitesmoke;
+}
+
+footer p {
+  line-height: 25px;
+}
+
+footer .about {
+  margin-right: 2rem;
+}
+
+footer .about h3 {
+  font-size: 1.7rem;
+  margin-bottom: 0.6rem;
+}
+
+footer .contact {
+  margin-right: 2rem;
+}
+
+footer .contact h3 {
+  font-size: 1.7rem;
+  margin-bottom: 0.6rem;
+}
+
+footer .contact i {
+  margin-right: 0.7rem;
+}
+
+footer .newsletter {
+  font-size: 1.7rem;
+  margin-bottom: 0.6rem;
+}
